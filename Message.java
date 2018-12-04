@@ -13,6 +13,7 @@ public class Message {
 	private String message;
 	private Date created;
 	private String author;
+	private String user;
 	private Map<Long,Comment> comments = new HashMap<>();
 	
 	public Message(Long id, String message, String author) {
